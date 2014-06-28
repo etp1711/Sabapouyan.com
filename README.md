@@ -1,4 +1,2 @@
-Sabapouyan.com
-==============
-
-SabapouyanITCorp.
+Sabapouyan
+==========
