@@ -54,8 +54,8 @@
 							<li class="product"><a href="#">خدمات آنلاین</a>
 								<ul>
 									<li><a href="response.php">جوابدهی آنلاین</a></li> 
-									<li><a href="pro-patho.php">مسئول فنی آنلاین</a></li>
-									<li><a href="pro-otomation.php">پشتیبانی آنلاین</a></li>
+									<li><a href="on-technical.php">مسئول فنی آنلاین</a></li>
+									<li><a href="on-support.php">پشتیبانی آنلاین</a></li>
 								</ul> 
 							</li>
 							<li><a href="contact.php">تماس با ما</a></li>
