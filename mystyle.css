@@ -555,8 +555,52 @@ section.container .foot .footer-contain .forth .footslide div.next{
 
 
 
+
+
+
+
+
 /*************PRODUCT SUB MENU PAGES******************/
 
+/*   		  HIS                */
+section.container .head .head-contain .his-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				1050px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+
+}      
+section.container .head .head-contain .his-contain .contain{
+	width: 						1050px;
+	min-height: 				750px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	text-align: 				right;
+	direction: 					rtl;
+}
+section.container .head .head-contain .his-contain .contain h2{
+	text-align: 				center;
+	font-weight: 				bold;
+}
+section.container .head .head-contain .his-contain .contain h4{
+	text-align: 				right;
+	font-size: 					19px;
+	font-weight: 				bold;
+}
+section.container .head .head-contain .his-contain .contain p{
+	margin-left: 				130px;
+	text-align: 				justify;
+}
+section.container .head .head-contain .his-contain .contain ul{
+	list-style-type: 			circle;
+	margin-right: 				100px;
+}
 
 
 /*   		  Pathologist                */
@@ -921,7 +965,6 @@ section.container .head .head-contain .about-contain .contain .about .text p{
 	margin-left: 				50px;
 	margin-right: 				80px;
 }
-
 
 
 
