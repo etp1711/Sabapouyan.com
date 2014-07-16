@@ -568,7 +568,7 @@ section.container .head .head-contain .his-contain{
 	right: 						0;
 	left: 						0;
 	position: 					absolute;
-	min-height: 				1050px;
+	min-height: 				2265px;
 	margin: 					0 auto;
 	margin-top: 				25px;
 	background-color: 			white;
@@ -578,16 +578,37 @@ section.container .head .head-contain .his-contain{
 }      
 section.container .head .head-contain .his-contain .contain{
 	width: 						1050px;
-	min-height: 				750px;
+	min-height: 				1600px;
 	margin: 					0 auto;
 	margin-top: 				80px;
 	text-align: 				right;
 	direction: 					rtl;
 }
+section.container .head .head-contain .his-contain .contain .emkanat{
+	width: 						auto;
+	min-height: 				100px;
+	background-color: 			blue;
+	opacity: 					0.5;
+}
+section.container .head .head-contain .his-contain .contain .emkanat .headline{
+	width: 						inherit;
+	min-height: 				200px;
+	background-color: 			red;
+	opacity: 					0.5;
+}
+section.container .head .head-contain .his-contain .contain .emkanat .headline h2{
+
+}
+section.container .head .head-contain .his-contain .contain .emkanat .headline img{
+	width: 						200px;
+	min-height: 				150px;
+	float: 						right;
+}
 section.container .head .head-contain .his-contain .contain h2{
 	text-align: 				center;
 	font-weight: 				bold;
 }
+
 section.container .head .head-contain .his-contain .contain h4{
 	text-align: 				right;
 	font-size: 					19px;
