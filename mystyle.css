@@ -1,0 +1,1141 @@
+@font-face{
+    font-family: 'BNazanin';
+    src: url('fonts/BNazanin.ttf');
+    src: url('fonts/BNazanin.woff') format('woff'),
+         url('fonts/BNazanin.eot') 	format('truetype');
+    font-weight: normal;
+    font-style:  normal;
+  
+}
+*,header,div,footer{
+	outline:					0px dashed red;
+}
+ul{
+	list-style-type: 			none;
+}
+
+a{
+	text-decoration: 			none;
+}
+
+body{
+	background-image: 			url(images/body-tail.gif);
+	font-family: 				"BNazanin";
+}	
+section.container{
+
+}
+
+
+/*............Head & Slide...........*/
+section.container .head{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				730px;	
+	margin: 					0 auto;
+	background-image: 			url(images/header-bg.jpg);
+	background-repeat: 			no-repeat;
+	background-position: 		top center;
+	font-family: 				"BNazanin";
+
+}
+section.container .head .head-contain{
+	width: 						1050px;
+	min-height: 				150px;
+	margin: 					0 auto;
+}
+section.container .head .head-contain .sub-menu{
+	width: 						500px;
+	margin-left: 				510px;
+	min-height: 				40px;
+	margin-top: 				40px;
+}	
+section.container .head .head-contain .sub-menu .menubar{
+	width: 						400px;
+	min-height: 				40px;
+	float: 						right;
+}
+section.container .head .head-contain .sub-menu .menubar ul li{
+	float: 						right;
+}
+section.container .head .head-contain .sub-menu .menubar ul li a{
+	color: 						white;
+	margin-right: 				15px;
+	font-size: 					15px;
+	font-family: 				"bnazanin";
+}
+section.container .head .head-contain .sub-menu .menubar ul li a:hover{
+	color: 						#FFF333;
+	text-decoration: 			underline;
+}
+section.container .head .head-contain .main-menu{
+	width: 						950px;
+	min-height: 				120px;
+	margin: 					0 auto;
+	margin-bottom: 				0px;
+}
+section.container .head .head-contain .main-menu .logo{
+	width: 						300px;
+	min-height: 				110px;
+	float: 						left;
+	text-align: 				center;
+}
+section.container .head .head-contain .main-menu .logo img{
+	width: 						190px;
+	height: 					130px;
+	margin-right: 				150px;
+}
+section.container .head .head-contain .main-menu .menubar{
+	margin-left: 				290px;
+	min-height: 				80px;
+	margin-right: 				0px;
+}
+section.container .head .head-contain .main-menu .menubar ul{
+	width: 						100%;
+	min-height: 				inherit;
+}
+section.container .head .head-contain .main-menu .menubar ul li{
+	float: 						right;
+	margin-top: 				30px;
+	width: 						125px;
+	height: 					55px;
+	text-align: 				center;
+	border-radius: 				15px;
+	margin-left: 				5px;
+	line-height: 				55px;
+	background-image: 			url(images/menu-li-bg.jpg);
+	background-repeat: 			no-repeat;
+	box-shadow: 				0px 8px 7px 0px #000;
+	-webkit-transition: 		all 600ms;
+  	-moz-transition: 			all 600ms;
+  	-o-transition: 				all 600ms;
+  	-os-transition: 			all 600ms;
+}
+section.container .head .head-contain .main-menu .menubar ul li:hover{
+  	background-image: 			url(images/menu-li-active.jpg);
+	background-repeat: 			no-repeat;
+	cursor: 					pointer;
+}
+section.container .head .head-contain .main-menu .menubar ul li a{
+	text-decoration: 		none;
+	color:					white;
+	display: 				inline-block;
+	border-radius: 			15px;
+	font-size: 				14px;
+	letter-spacing: 		0px;
+	font-weight: 			bold;
+	width: 					100%;
+	height: 				100%;
+	line-height:			55px;
+	-webkit-transition: 	all 1000ms;
+  	-moz-transition: 		all 1000ms;
+  	-o-transition: 			all 1000ms;
+  	-os-transition: 		all 1000ms;
+}
+section.container .head .head-contain .main-menu .menubar ul li a:hover{
+	color: 					#111;
+	-webkit-transition: 	all 200ms;
+  	-moz-transition: 		all 200ms;
+  	-o-transition: 			all 200ms;
+  	-os-transition: 		all 200ms;
+}
+section.container .head .head-contain .main-menu .menubar ul li ul{
+	z-index: 				10;
+	position: 				relative;
+}
+section.container .head .head-contain .main-menu .menubar ul li.product{
+	overflow: 				hidden;
+}
+section.container .head .head-contain .main-menu .menubar ul li.product img{
+	
+}
+section.container .head .head-contain .main-menu .menubar ul li.product:hover{
+	overflow: 				visible;
+}
+section.container .head .head-contain .main-menu .menubar ul li ul{
+	margin: 				0 auto;
+	margin-left: 			61px;
+}
+section.container .head .head-contain .main-menu .menubar ul li ul li{
+	margin-top: 			0px;
+	box-shadow: 			0 0 0 0;
+	width: 					246px;
+	height: 				30px;
+	background-image: 		url(images/menu-ul-tail.png);
+	background-repeat: 		repeat;	
+	border-radius: 		 	0;
+	line-height: 			30px;
+}
+section.container .head .head-contain .main-menu .menubar ul li ul li.service{
+	width: 					200px;
+}
+section.container .head .head-contain .main-menu .menubar ul li ul li:hover{
+	background-image: 		url(images/menu-ul-tail.png);
+	background-repeat: 		repeat;	
+}
+section.container .head .head-contain .main-menu .menubar ul li ul li a{
+	width: 					90%;
+	height: 				90%;
+	line-height: 			30px;
+	
+}
+section.container .head .head-contain .main-menu .menubar ul li ul li a:hover{
+	background-color: 		#5D9700;
+	border-radius: 			8px;
+	width: 					90%;
+	height: 				90%;
+	
+}
+section.container .head .head-contain .main-menu .menubar ul li ul li:first-child{
+	margin-top: 			0px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+section.container .head .head-contain .main-menu .menubar ul li ul li:last-child{
+	margin-top: 			0px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+
+/* Slide Show */ 
+section.container .head .head-contain .slideshow{
+	width      : 				900px;
+	height     : 				400px;
+	margin     : 				auto 0;
+	overflow   : 				hidden;
+	position   : 				relative;
+	background-image    		: url('images/loading.gif');
+	background-repeat   		: no-repeat;
+	background-position 		: center center;
+	margin: 					0 auto;
+	margin-top: 				0px;
+	border: 					20px solid white;
+	border-radius: 				7px;
+	box-shadow: 				0px 15px 10px 0px;
+}
+section.container .head .head-contain .slideshow div.train{
+	width    : 					10000px;
+	height   : 					400px;
+	position : 					absolute;
+	left     :					0;
+	top      : 					0;
+	-webkit-transition : 		left 800ms ease-in-out;
+}
+section.container .head .head-contain .slideshow div.train > div{
+	width  : 					900px;
+	height : 					inherit;
+	float  : 					left;
+	background-size     : 		cover;
+	background-repeat   : 		no-repeat;
+	background-position : 		left top;
+}
+section.container .head .head-contain .slideshow ul.btns{
+	height     : 				13px;
+	list-style : 				none;
+	position   : 				absolute;
+	right: 						2px;
+	bottom     : 				50;
+}
+section.container .head .head-contain .slideshow ul.btns li{
+	width  : 					200px;
+	height : 					90px;
+	border-radius: 				10px;
+	cursor : 					pointer;
+	margin-right       : 		5px;
+	background-repeat: 			no-repeat;
+	background-position: 		center;
+	background-size: 			cover;
+	-webkit-transition : 		all 1100ms;
+	margin-top: 				8px;
+	opacity: 					0.8;
+}
+
+section.container .head .head-contain .slideshow ul.btns li:hover,
+section.container .head .head-contain .slideshow ul.btns li.active{
+	-webkit-transition-duration : 1100ms;
+	opacity: 					1;
+}	
+
+section.container .head .head-contain .slideshow div.previous,
+section.container .head .head-contain .slideshow div.next{
+	display: 					none;
+	position : 					absolute;
+	top      : 					135px;
+	width    : 					30px;
+	height   : 					30px;
+	opacity  : 					1;
+	cursor   : 					pointer;
+	background-image   : 		url('images/arrow.png');
+	background-repeat  : 		no-repeat;
+	-webkit-transition : 		opacity 500ms;
+}
+
+section.container .head .head-contain .slideshow div.previous{
+	background-position :		0px 0px;
+	left : 						10px;
+}
+section.container .head .head-contain .slideshow div.next{
+	right : 					10px;
+	background-position : 		-30px 0px;
+}
+
+ 
+/*  End Of Head  */
+
+
+
+
+
+/*   ......... Middle..............*/
+/*   ......... iFrames ............*/
+section.container .middle{
+	width: 						100%;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				910px;	
+	margin: 					0 auto;
+	margin-top: 				680px;
+	padding: 					1px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+}	
+section.container .middle .middle-contain{
+	width: 						1050px;
+	min-height: 				868px;
+	margin: 					0 auto;
+	margin-top: 				50px;
+}
+section.container .middle .middle-contain .uptext{
+	width: 						inherit;
+	min-height: 				480px;
+	padding: 					1px;
+}
+section.container .middle .middle-contain .uptext .right-part{
+	float: 						right;
+	width: 						350px;
+	min-height: 				inherit;
+	text-align: 				right;
+}
+section.container .middle .middle-contain .uptext .right-part h3 {
+	font-size: 					24px;
+	line-height: 				1.2em;
+	letter-spacing: 			2px;
+	border-bottom: 				1px solid	#ccc;
+	font-family: 				"BNazanin";
+}
+section.container .middle .middle-contain .uptext .right-part ul{
+	direction: 					rtl;
+}
+section.container .middle .middle-contain .uptext .right-part ul li{
+	background-image: 			url(images/marker-4.gif);
+	background-repeat: 			no-repeat;
+	background-position: 		right;
+	line-height: 				30px;
+}
+section.container .middle .middle-contain .uptext .right-part ul li a{
+	color: 						#81A104;
+	margin-right: 				40px;
+	font-size: 					19px;
+}
+section.container .middle .middle-contain .uptext .right-part ul li a:hover{
+	color: 						#F2A901;
+	text-decoration: 			none;
+}
+section.container .middle .middle-contain .uptext .left-part{
+	margin-right: 				400px;
+	min-height: 				inherit;
+	text-align: 				right;
+}
+
+section.container .middle .middle-contain .uptext .left-part iframe{
+	width: 						690px;
+	min-height: 				370px;
+
+	font-family: 				"BNazanin";
+}
+
+
+/*.......... News Part ............ */
+section.container .middle .middle-contain .downtext{
+	width: 						inherit;
+	min-height: 				380px;
+	outline: 					1px solid red;
+}
+section.container .middle .middle-contain .downtext div{
+	outline: 					1px solid red;
+}
+
+section.container .middle .middle-contain .downtext .right-part{
+	float: 						right;
+	width: 						350px;
+	min-height: 				inherit;
+}
+section.container .middle .middle-contain .downtext .left-part{
+	margin-right: 				400px;
+	min-height: 				inherit;
+
+}
+
+/*     End Of middle      */
+ 
+
+
+/*   ......... Footer..............*/
+section.container .foot{
+	width: 						100%;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				365px;	
+	margin: 					0 auto;
+	margin-top: 				1590px;
+	background-image: 			url(images/footer-bg.jpg);
+	background-repeat: 			no-repeat;
+	background-position: 		center;	
+	font-family: 				"Bnazanin";
+}	
+section.container .foot .footer-contain{
+	width: 						1050px;
+	min-height: 				365px;	
+	margin: 					0 auto;
+	text-align: 				right;
+	direction: 					rtl;
+}
+section.container .foot .footer-contain .first, section.container .foot .footer-contain .second, section.container .foot .footer-contain .third{
+	width: 						200px;
+	float: 						right;
+	min-height: 				inherit;
+}	
+section.container .foot .footer-contain .first h3, section.container .foot .footer-contain .second h3, section.container .foot .footer-contain .third h3{
+	color: 						#E1FF47;
+	font-size: 					20px;
+	letter-spacing: 			2px;
+}
+section.container .foot .footer-contain .first ul, section.container .foot .footer-contain .second ul, section.container .foot .footer-contain .third ul{
+	list-style-type: 			circle;
+}
+section.container .foot .footer-contain .first ul li, section.container .foot .footer-contain .second ul li, section.container .foot .footer-contain .third ul li{
+	margin-top: 				13px;
+	color: 						#E1FF47;
+	margin-right: 				15px;
+}
+section.container .foot .footer-contain .first ul li a, section.container .foot .footer-contain .second ul li a, section.container .foot .footer-contain .third ul li a{
+	color: 						#BAD359;
+	font-size: 					15px;
+	margin-right: 				0px;
+	-webkit-transition: 		all 800ms;
+  	-moz-transition: 			all 800ms;
+  	-o-transition: 				all 800ms;
+  	-ms-transition: 			all 800ms;
+}
+section.container .foot .footer-contain .first ul li a:hover, section.container .foot .footer-contain .second ul li a:hover, section.container .foot .footer-contain .third ul li a:hover{
+	color: 						#fff333;
+	margin-right: 				15px;
+	-webkit-transition: 		all 200ms;
+  	-moz-transition: 			all 200ms;
+  	-o-transition: 				all 200ms;
+  	-ms-transition: 			all 200ms;
+	
+}
+section.container .foot .footer-contain .second, section.container .foot .footer-contain .third{
+	margin-right: 				30px;
+}
+
+
+section.container .foot .footer-contain .anchor{
+	position: absolute;
+	top: 70px;
+	left: 0;
+}
+
+section.container .foot .footer-contain .anchor a{
+	display: block;
+	padding: 22px 22px;
+	background: url('images/to-top.png') 0 0 no-repeat;
+}
+
+
+
+/*  ......FOOT SLIDE ............ */
+section.container .foot .footer-contain .forth{
+	margin-right: 				690px;
+	min-height: 				inherit;
+	outline: 					0px solid red;
+	padding: 					1px;
+	font-size: 					18px;
+}
+section.container .foot .footer-contain .forth .footslide{
+	width      : 				350px;
+	height     : 				150px;
+	margin     : 				55px auto 0;
+	overflow   : 				hidden;
+	position   : 				relative;
+	color: 						#BBD359;
+}
+section.container .foot .footer-contain .forth .footslide div.trainfoot{
+	width    : 					10000px;
+	height   : 					300px;
+	position : 					absolute;
+	left     : 					0;
+	top      :					0;
+	-webkit-transition : 		left 800ms ease-in-out;
+}
+
+section.container .foot .footer-contain .forth .footslide div.trainfoot > div{
+	width  : 					350px;
+	height : 					inherit;
+	float  : 					left;
+	border-radius       : 		4px;
+	background-size     : 		cover;
+	background-repeat   : 		no-repeat;
+	background-position : 		left top;
+	text-align: 				right;
+}
+
+
+/* ----------------Navigation------------------------------ */
+
+section.container .foot .footer-contain .forth .footslide ul.btnsfoot{
+	height     : 				13px;
+	list-style : 				none;
+	position   : 				absolute;
+	left       : 				0;
+	bottom     : 				0;
+	opacity    : 				0;
+}
+section.container .foot .footer-contain .forth .footslide ul.btnsfoot li{
+	display: 					none;
+	float  : 					left;
+	width  : 					30px;
+	height : 					10px;
+	cursor : 					pointer;
+	margin-right       	: 		5px;
+	border-radius      	: 		2px;
+	background-color   	: 		#333;
+	-webkit-transition 	: 		all 1100ms;
+}
+section.container .foot .footer-contain .forth .footslide ul.btnsfoot li:hover,
+section.container .foot .footer-contain .forth .footslide ul.btnsfoot li.active{
+	height           : 			16px;
+	margin-top       : 			-3px;
+	background-color : 			#2677AD;
+	-webkit-transition-duration : 200ms;
+}
+
+section.container .foot .footer-contain .forth .footslide div.prv,
+section.container .foot .footer-contain .forth .footslide div.next{
+	position : 					absolute;
+	top      : 					5px;
+	left: 	   					0px;
+	width    : 					30px;
+	height   : 					30px;
+	opacity  : 					1;
+	cursor   : 					pointer;
+	background-image   : 		url('images/arrowfoot.png');
+	background-repeat  : 		no-repeat;
+	
+}
+section.container .foot .footer-contain .forth .footslide div.prv{
+	background-position : 		0px 0px;
+	left:  : 					10px;
+}
+section.container .foot .footer-contain .forth .footslide div.next{
+	left:   					35px;
+	background-position : 		-31px 0px;
+	
+}
+/* ...... End Of footer ....... */
+
+
+
+
+/*........................End Of Index.html ....................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************PRODUCT SUB MENU PAGES******************/
+
+/*   		  HIS                */
+section.container .head .head-contain .his-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				1585px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;
+
+
+}      
+section.container .head .head-contain .his-contain .contain{
+	width: 						1050px;
+	margin: 					0 auto;
+	margin-top: 				70px;
+	text-align: 				right;
+	direction: 					rtl;
+	
+}
+
+section.container .head .head-contain .his-contain .contain h2{
+	text-align: 				center;
+	font-weight: 				bold;
+}
+
+section.container .head .head-contain .his-contain .contain h4{
+	text-align: 				right;
+	font-size: 					19px;
+	font-weight: 				bold;
+}
+section.container .head .head-contain .his-contain .contain p{
+	margin-left: 				130px;
+}
+section.container .head .head-contain .his-contain .contain ul{
+	list-style-type: 			circle;
+	margin-right: 				100px;
+	margin-left: 				100px;
+	line-height: 				30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*   		  Pathologist                */
+section.container .head .head-contain .patho-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				1050px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+
+}      
+section.container .head .head-contain .patho-contain .contain{
+	width: 						980px;
+	min-height: 				650px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	border-radius: 				25px;
+	background-color: 			#EBEBEB;
+	border: 					2px solid #000;	
+}
+
+
+
+
+
+
+
+/*   		  Clinic             */
+section.container .head .head-contain .clinic-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				1050px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+
+}      
+section.container .head .head-contain .clinic-contain .contain{
+	width: 						980px;
+	min-height: 				650px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	border-radius: 				25px;
+	background-color: 			#EBEBEB;
+	border: 					2px solid #000;	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.................. Download Page ....................*/
+
+section.container .head .head-contain .download-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				800px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			#EBEBEB;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+
+}
+section.container .head .head-contain .download-contain .contain{
+	width: 						900px;
+	min-height: 				650px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	border-radius: 				25px;
+	background-color: 			#EBEBEB;
+	border: 					2px solid #000;	
+}
+section.container .head .head-contain .download-contain .contain table{
+	width: 						850px;
+	margin: 					0 auto;
+	margin-top: 				50px;
+	text-align: 				center;
+	direction: 					rtl;
+	border:						1px;
+	color: 						black;
+	line-height: 				40px;
+}
+section.container .head .head-contain .download-contain .contain table th{
+	background:				    -webkit-linear-gradient( -90deg, rgba(150, 150, 150, 1), rgba(236, 236, 236, 1) );
+	background:				    -moz-linear-gradient( -90deg, rgba(150, 150, 150, 1), rgba(236, 236, 236, 1) );
+	background:				    -o-linear-gradient( -90deg, rgba(150, 150, 150, 1), rgba(236, 236, 236, 1) );
+	background:				    -ms-linear-gradient( -90deg, rgba(150, 150, 150, 1), rgba(236, 236, 236, 1) );
+}	
+section.container .head .head-contain .download-contain .contain table th:first-child{
+	border-top-right-radius: 	12px;
+	border-bottom-right-radius: 12px;
+}
+section.container .head .head-contain .download-contain .contain table th:last-child{
+	border-top-left-radius: 	12px;
+	border-bottom-left-radius: 	12px;
+}
+section.container .head .head-contain .download-contain .contain table .date{
+	width: 						110px;
+}
+section.container .head .head-contain .download-contain .contain table .subject{
+	width: 						410px;
+}
+section.container .head .head-contain .download-contain .contain table .file{
+	width: 						150px;
+}
+section.container .head .head-contain .download-contain .contain table .click{
+	width: 						80px;
+}
+section.container .head .head-contain .download-contain .contain table .download{
+	width: 						80px;
+}
+/* ...... End Download Page .........*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*............................Contact Page...........................*/
+
+section.container .head .head-contain .contact-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				800px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+}
+section.container .head .head-contain .contact-contain .contain{
+	width: 						1050px;
+	min-height: 				650px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	text-align: 				right;
+	direction: 					rtl;
+}
+section.container .head .head-contain .contact-contain .contain div{
+	outline: 					0px solid red;				
+}
+section.container .head .head-contain .contact-contain .contain .left-part{
+	float: 						left;
+	width: 						700px;
+	min-height: 				inherit;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .text-head{
+	width: 						inherit;
+	min-height: 				50px;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .text-head h3{
+	margin-top: 				0;
+	color: 						#555;
+	font-size: 					30px;
+	letter-spacing: 			4px;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .text{
+	width: 						inherit;
+	min-height: 				50px;
+	margin-top: 				30px;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .text p{
+	color: 						#555;
+	font-size: 					15px;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .form{
+	width: 						450px;
+	min-height: 				335px;
+	margin-top: 				30px;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .form input{
+	width: 						300px;
+	min-height: 				38px;
+	border-radius: 				8px;
+	margin-top: 				3px;
+	border:						2px solid #999;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .form textarea{
+	width: 						410px;
+	min-height: 				190px;
+	border-radius: 				8px;
+	margin-top: 				3px;
+	border:						2px solid #999;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .form .butt{
+	color: 						white;
+	width: 						103px;
+	min-height: 				42px;
+	background-color: 			#EBAB02;
+	font-size: 					18px;
+	font-weight: 				bold;
+	letter-spacing: 			2px;
+	border: 					none;
+	-webkit-transition: 	all 200ms;
+  	-moz-transition: 		all 200ms;
+  	-o-transition: 			all 200ms;
+  	-ms-transition: 		all 200ms;
+}
+section.container .head .head-contain .contact-contain .contain .left-part .form .butt:hover{
+	background-color: 			#81A104;
+	-webkit-transition: 	all 200ms;
+  	-moz-transition: 		all 200ms;
+  	-o-transition: 			all 200ms;
+  	-ms-transition: 		all 200ms;
+}
+/*   Right Part    */
+
+section.container .head .head-contain .contact-contain .contain .right-part{
+	margin-left: 				725px;
+	min-height: 				inherit;
+}	
+section.container .head .head-contain .contact-contain .contain .right-part .text-head{
+	width: 						inherit;
+	min-height: 				50px;
+}
+section.container .head .head-contain .contact-contain .contain .right-part .text-head h3{
+	margin-top: 				0;
+	color: 						#555;
+	font-size: 					30px;
+	letter-spacing: 			4px;
+}
+
+section.container .head .head-contain .contact-contain .contain .right-part .map{
+	width: 						300px;
+	min-height: 				300px;
+	margin: 					0 auto;
+	margin-top: 				30px;
+}
+ .contain .right-part .down-text{
+	width: 						300px;
+	min-height: 				100px;
+	margin: 					0 auto;
+	margin-top: 				15px;
+}
+section.container .head .head-contain .contact-contain .contain .right-part .down-text p{
+	color: 						#555;
+	font-size: 					13px;
+}
+section.container .head .head-contain .contact-contain .contain .right-part .info{
+	width: 						300px;
+	min-height: 				100px;
+	margin: 					0 auto;
+	margin-top: 				15px;
+}
+section.container .head .head-contain .contact-contain .contain .right-part .info .tel{
+	float: 						left;
+	margin-left: 				140px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ........... About Us ................  */
+section.container .head .head-contain .about-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				1050px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+}
+section.container .head .head-contain .about-contain .contain{
+	width: 						1050px;
+	min-height: 				750px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	text-align: 				right;
+	direction: 					rtl;
+	-webkit-transition:			all 2s;
+}
+
+section.container .head .head-contain .about-contain .contain .history{
+	width: 						inherit;
+}
+section.container .head .head-contain .about-contain .contain .history .headline{
+	width: 						inherit;
+	padding: 					1px;
+}
+section.container .head .head-contain .about-contain .contain .history .headline img{
+	width: 						120px;
+	margin-top: 				10px;
+	float: 						right;
+}
+section.container .head .head-contain .about-contain .contain .history .headline h1{
+	margin-top: 				30px;
+}
+section.container .head .head-contain .about-contain .contain .history .text{
+	width: 						inherit;
+}
+section.container .head .head-contain .about-contain .contain .history .text p{
+	margin-left: 				50px;
+	margin-right: 				80px;
+	line-height: 				30px;
+}
+section.container .head .head-contain .about-contain .contain .about{
+	width: 						inherit;
+}
+section.container .head .head-contain .about-contain .contain .about .headline{
+	width: 						inherit;
+	padding: 					1px;
+}
+section.container .head .head-contain .about-contain .contain .about .headline img{
+	width: 						80px;
+	float: 						right;
+}
+section.container .head .head-contain .about-contain .contain .about .headline h1{
+	margin-top: 				30px;
+}
+section.container .head .head-contain .about-contain .contain .about .text{
+	width: 						inherit;
+}
+section.container .head .head-contain .about-contain .contain .about .text p{
+	margin-left: 				50px;
+	margin-right: 				80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ....................Customers Page.....................*/
+section.container .head .head-contain .customers-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				800px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+}
+section.container .head .head-contain .customers-contain .contain{
+	width: 						1050px;
+	min-height: 				650px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	text-align: 				right;
+	direction: 					rtl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+/* ........ Response  Page  ........ */
+section.container .head .head-contain .response-contain{
+	width: 						auto;
+	right: 						0;
+	left: 						0;
+	position: 					absolute;
+	min-height: 				820px;
+	margin: 					0 auto;
+	margin-top: 				25px;
+	background-color: 			white;
+	font-family: 				"Bnazanin";
+	font-size: 					19px;	
+}
+section.container .head .head-contain .response-contain .contain{
+	width: 						1050px;
+	min-height: 				650px;
+	margin: 					0 auto;
+	margin-top: 				80px;
+	text-align: 				right;
+	direction: 					rtl;
+	border-radius: 				25px;
+	background-color: 			#EBEBEB;
+	border: 					2px solid #000;				
+}
+section.container .head .head-contain .response-contain .contain .text{
+	margin: 					0 auto;
+	text-align: 				center;
+	font-size: 					17px;
+	color: 						#ccc;
+	color: 						#000;
+	margin-top: 				60px;
+}
+section.container .head .head-contain .response-contain .contain .tble{
+	margin: 					0 auto;
+	width: 						700px;
+	min-height: 				300px;
+	color: 						#fff;
+	color: 						#000;
+	margin-top: 				50px;
+}
+section.container .head .head-contain .response-contain .contain .tble .name-lab{
+	margin-bottom: 				0px;
+}
+section.container .head .head-contain .response-contain .contain .tble .name-lab, section.container .head .head-contain .response-contain .contain .tble .name-karbar, section.container .head .head-contain .response-contain .contain .tble .pass, section.container .head .head-contain .response-contain .contain .tble .btns{
+	margin: 					0 auto;
+	width: 						450px;
+	min-height: 				60px;
+	text-align: 				center;
+}
+section.container .head .head-contain .response-contain .contain .tble .name-lab select, section.container .head .head-contain .response-contain .contain .tble .name-karbar input, section.container .head .head-contain .response-contain .contain .tble .pass input{
+	margin-right: 				20px;
+	min-height: 				38px;
+	margin-top: 				0px;
+	width: 						280px;
+}	
+section.container .head .head-contain .response-contain .contain .tble .name-lab select{
+	border-radius: 				8px;
+	border: 					1px inset white;
+	width: 						285px;
+}
+section.container .head .head-contain .response-contain .contain .tble .pass {
+	margin-top: 				0px;
+}
+
+section.container .head .head-contain .response-contain .contain .tble .btns{
+	margin-top: 				30px;
+	letter-spacing: 			1px;
+}
+section.container .head .head-contain .response-contain .contain .tble input{
+	border-radius: 				8px;
+}
+section.container .head .head-contain .response-contain .contain .tble .btns input{
+	color: 						white;
+	width: 						103px;
+	min-height: 				42px;
+	background-color: 			#EBAB02;
+	font-size: 					18px;
+	text-align: 				center;
+	border: 					none;
+	-webkit-transition: 	all 200ms;
+  	-moz-transition: 		all 200ms;
+  	-o-transition: 			all 200ms;
+  	-ms-transition: 		all 200ms;
+	
+}
+section.container .head .head-contain .response-contain .contain .tble .btns input:hover{
+	cursor: 				pointer;
+	background-color: 		#81A104;
+	-webkit-transition: 	all 200ms;
+  	-moz-transition: 		all 200ms;
+  	-o-transition: 			all 200ms;
+  	-ms-transition: 		all 200ms;
+}
+
+
+
