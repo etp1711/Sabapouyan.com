@@ -37,43 +37,53 @@
 					<div class="footslide">
 						<div class="trainfoot">
 							<script type="text/javascript">
-					var slidesLen = 1;
-					for(var i=1;i<=slidesLen;i++){
-						document.write("<div><p><br />نمونه متن شماره 1111</p></div>");
-					}
-					var slidesLen = 1;
-					for(var i=1;i<=slidesLen;i++){
-						document.write("<div><p><br />نمونه متن شماره 2222</p></div>");
-					}
-					var slidesLen = 1;
-					for(var i=1;i<=slidesLen;i++){
-						document.write("<div><p><br />نمونه متن شماره 3333</p></div>");
-					}
-					var slidesLen = 4;
-					for(var i=1;i<=slidesLen;i++){
-						document.write("<div><p><br />نمونه متن شماره 4444</p></div>");
-					}
-					
-				</script>
-						</div>
-						<div class="next"></div>
-						<div class="prv"></div>
-						<ul class="btnsfoot">
-							<script type="text/javascript">
-								for(i=0;i<slidesLen;i++){
-									document.write("<li></li>");
+								var slidesLen = 1;
+								for(var i=1;i<=slidesLen;i++){
+									document.write("<div><p><br />نمونه متن شماره 1111</p></div>");
 								}
+								var slidesLen = 1;
+								for(var i=1;i<=slidesLen;i++){
+									document.write("<div><p><br />نمونه متن شماره 2222</p></div>");
+								}
+								var slidesLen = 1;
+								for(var i=1;i<=slidesLen;i++){
+									document.write("<div><p><br />نمونه متن شماره 3333</p></div>");
+								}
+								var slidesLen = 4;
+								for(var i=1;i<=slidesLen;i++){
+									document.write("<div><p><br />نمونه متن شماره 4444</p></div>");
+								}
+					
 							</script>
-						</ul>
+						</div>
+							<div class="next"></div>
+							<div class="prv"></div>
+								<ul class="btnsfoot">
+									<script type="text/javascript">
+										for(i=0;i<slidesLen;i++){
+											document.write("<li></li>");
+										}
+									</script>
+								</ul>
 					</div>
 				</div>
 			</div>
-				</div>
+				
+
+
+
+
 				<div class="badboy"></div>
+
+
 			</div>
+
+
+
+
 			<div class="anchor">
 					<a href="#myAnchor" id="anchor1" class="anchorLink" title="jsj"></a>
-				</div>
+			</div>
 		
 	</section>
 </body>

@@ -122,29 +122,4 @@ $(document).ready(function() {
 //END Anchor link for scroll
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 }
